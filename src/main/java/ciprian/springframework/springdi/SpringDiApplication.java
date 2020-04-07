@@ -12,6 +12,9 @@ public class SpringDiApplication {
         ApplicationContext ctx = SpringApplication.run(SpringDiApplication.class, args);
 
 
+        PetController petController = (PetController) ctx.getBean("petController");
+        System.out.println(petController.whichPetIsBest());
+
         I18nController i18nController = (I18nController) ctx.getBean("i18nController");
         System.out.println(i18nController.sayGreeting());
 
