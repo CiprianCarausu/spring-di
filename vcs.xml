@@ -34,6 +34,10 @@
           <option name="url" value="https://github.com/springframeworkguru/sfg-di/tree/di-assignment" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/CiprianCarausu/pet-clinic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Java\Projects - Main" />
